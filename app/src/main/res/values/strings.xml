@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Practical_4</string>
+    <string name="main_header_name">Chat App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in_title">Sign In Fragment</string>
+    <string name="sign_up_fragment_headertxt">Sign In</string>
+    <string name="signInEmailHint">Email</string>
+    <string name="signInPasswordHint">Password</string>
+    <string name="signUpPasswordConfirmHint">Confirm Password</string>
+    <string name="signin_btn_text">Sign In</string>
+    <string name="signup_username_hint">Username</string>
+    <string name="welcome_screen_brief">Find Your Friends on ChatApp To connect you with people you know, this app collects data from your contact list to suggest connections. We also use notifications to ensure you never miss a message. Tap Continue to sync contacts and start chatting.</string>
+    <string name="welcome_screen_title">Welcome to ChatApp</string>
+    <string name="welcome_btn_text">Continue</string>
+</resources>

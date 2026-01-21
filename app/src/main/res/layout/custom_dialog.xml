@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:minWidth="300dp"
+    android:minHeight="390dp"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/welcomescreen_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="162dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/welcomeicon" />
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:text="@string/welcome_screen_title"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/material_dynamic_neutral40"
+        android:text="@string/welcome_screen_brief"
+        android:layout_marginBottom="20dp"
+        android:textSize="13sp"
+        android:fontFamily="@font/poppins"
+        />
+
+    <Button
+        android:id="@+id/WelcomeScreenContinueBtn"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins"
+        android:textAllCaps="false"
+        android:background="@drawable/button_background"
+        android:backgroundTint="@color/deep_seagreen"
+        android:text="@string/welcome_btn_text"/>
+</LinearLayout>
